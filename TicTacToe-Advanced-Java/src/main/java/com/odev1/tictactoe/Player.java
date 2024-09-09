@@ -1,4 +1,4 @@
-package com.yourname.tictactoe;
+package com.odev1.tictactoe;
 
 public class Player {
     private final String name;
@@ -14,5 +14,4 @@ public class Player {
     }
 
     public String getSymbol() {
-        return symbol;
-    }}
+        return symbol; }}
