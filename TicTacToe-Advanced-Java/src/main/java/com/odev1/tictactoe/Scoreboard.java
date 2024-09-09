@@ -1,11 +1,11 @@
-package com.yourname.tictactoe;
+package com.odev1.tictactoe;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class Scoreboard {
     private final Map<Player, Integer> wins = new HashMap<>();
-    private int draws;
+    private int draws = 0;
 
     public void incrementWins(Player player) {
         wins.put(player, wins.getOrDefault(player, 0) + 1);
